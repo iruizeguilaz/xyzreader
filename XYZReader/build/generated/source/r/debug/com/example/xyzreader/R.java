@@ -2508,8 +2508,9 @@ containing a value of this type.
         public static final int app_name=0x7f0c0014;
         public static final int appbar_scrolling_view_behavior=0x7f0c0015;
         public static final int status_bar_notification_info_overflow=0x7f0c0016;
-        public static final int up=0x7f0c0017;
-        public static final int welcome_xyz_reader=0x7f0c0018;
+        public static final int transition_photo=0x7f0c0017;
+        public static final int up=0x7f0c0018;
+        public static final int welcome_xyz_reader=0x7f0c0019;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0d0000;

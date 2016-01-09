@@ -36,6 +36,7 @@
                     android:src="@drawable/logo"
                     android:fitsSystemWindows="true"
                     app:layout_collapseMode="pin"
+                    android:transitionName="@string/transition_photo"
                     android:contentDescription="@string/app_name"/>
 
             </android.support.v7.widget.Toolbar>

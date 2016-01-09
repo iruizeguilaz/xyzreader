@@ -366,6 +366,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/C:/Users/Ivan/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="transition_photo">transition_photo</string>
     <string name="up">Up</string>
     <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
     <!-- From: file:/C:/Users/Ivan/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
@@ -377,6 +378,7 @@
     <!-- From: file:/C:/Users/Ivan/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
         <item name="colorPrimary">#3f51b5</item>
         <item name="colorPrimaryDark">#303F9F</item>
         <item name="colorAccent">#00bcd4</item>

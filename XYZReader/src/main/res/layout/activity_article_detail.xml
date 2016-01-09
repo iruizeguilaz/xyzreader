@@ -5,10 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
+        android:paddingTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="70dp"
         android:elevation="4dp"
         android:background="?attr/colorPrimary"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
