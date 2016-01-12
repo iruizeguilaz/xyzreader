@@ -150,7 +150,9 @@ public class ArticleListActivity extends AppCompatActivity implements
                 @Override
                 public void onClick(View view) {
 
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+
+// shared element transition
+                    /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 
                         ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(ArticleListActivity.this, view.findViewById(R.id.thumbnail),"transition_photo");
                         startActivity(new Intent(Intent.ACTION_VIEW,
@@ -160,6 +162,10 @@ public class ArticleListActivity extends AppCompatActivity implements
                         startActivity(new Intent(Intent.ACTION_VIEW,
                                 ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));
                     }
+
+                    */
+                    startActivity(new Intent(Intent.ACTION_VIEW,
+                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));
 
                 }
             });
