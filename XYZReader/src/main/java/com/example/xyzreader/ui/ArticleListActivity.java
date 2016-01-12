@@ -151,6 +151,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                 public void onClick(View view) {
 
 
+
 // shared element transition
                     /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 
